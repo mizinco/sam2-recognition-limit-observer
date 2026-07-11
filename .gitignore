@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# SAM2 本体・チェックポイント（サイズが大きいため commit しない）
+vendor/
+checkpoints/
+*.pt
+*.pth
+
+# 入力データ
+data/*
+!data/.gitkeep
+
+# 大容量メディア（動画は commit しない）
+*.mp4
+*.mov
+*.avi
+*.zip
+
+# 中間生成物
+results/**/overlay_frames/
+tmp/
+*.log

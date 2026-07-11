@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "SAM2 認識限界観測システム — 4 指標による品質保証付き対象追従カメラワーク"
+abstract: >-
+  車載カメラ映像に SAM2 (Segment Anything Model 2) の動画追跡を適用し、
+  追跡が破綻するフレーム・条件を 4 つの定量指標で観測・可視化し、
+  観察を対象追従カメラワーク応用の品質保証メトリクスに転用した Web ベースシステム。
+authors:
+  - alias: mizinco
+type: software
+license: MIT
+repository-code: "https://github.com/mizinco/sam2-recognition-limit-observer"
+keywords:
+  - SAM2
+  - Segment Anything Model
+  - video segmentation
+  - autonomous driving
+  - dashcam
+  - object tracking
+  - foundation model
+  - quality assurance
+  - KITTI
+references:
+  - type: article
+    authors:
+      - family-names: Ravi
+        given-names: Nikhila
+      - family-names: Gabeur
+        given-names: Valentin
+      - family-names: Hu
+        given-names: Yuan-Ting
+    title: "SAM 2: Segment Anything in Images and Videos"
+    year: 2024
+    publisher:
+      name: Meta AI Research
+  - type: article
+    authors:
+      - family-names: Geiger
+        given-names: Andreas
+      - family-names: Lenz
+        given-names: Philip
+      - family-names: Stiller
+        given-names: Christoph
+      - family-names: Urtasun
+        given-names: Raquel
+    title: "Vision meets robotics: The KITTI dataset"
+    journal: International Journal of Robotics Research
+    year: 2013
